@@ -2,6 +2,15 @@ const swiper = new Swiper('.swiper-container', {
     // Optional parameters
     slidesPerView: 1,
     spaceBetween: 10,
+    effect: "cube",
+    grabCursor: true,
+    speed: 1500,
+    cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 40,
+        shadowScale: 0.94,
+    },
     direction: 'horizontal',
     loop: true,
     autoplay: {
