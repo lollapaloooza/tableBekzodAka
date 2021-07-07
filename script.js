@@ -4,9 +4,9 @@ const swiper = new Swiper('.swiper-container', {
     spaceBetween: 10,
     direction: 'horizontal',
     loop: true,
-    // autoplay: {
-    //     delay: 3000
-    // }
+    autoplay: {
+        delay: 3000
+    }
 
 });
 
